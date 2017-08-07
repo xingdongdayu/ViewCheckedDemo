@@ -1,0 +1,6 @@
+<!--指定模板本地变量child1-->
+<app-child #child1></app-child>
+<app-child #child2></app-child>
+<button (click)="child2.greeting('Elva')">调用Child2的greeting方法</button>
+<br>
+{{message}}
